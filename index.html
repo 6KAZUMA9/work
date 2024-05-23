@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Быстрый старт. Размещение интерактивной карты на странице</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/v3/?apikey=440b7a72-981b-42ce-9340-0341c67ea02c&lang=ru_RU"></script>
+    <link rel="stylesheet" href="sample3.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <form id="dataForm">
+        <label for="direction">Направление:</label>
+        <input type="text" id="direction" name="direction"><br><br>
+        
+        <label for="speed">Скорость:</label>
+        <input type="text" id="speed" name="speed"><br><br>
+        <div id="coordinatesOutput">Coordinates: Not set</div>  
+
+        <button type="submit">Отправить</button>
+    </form>
+    <div id="map" style="width: 600px; height: 400px"></div>
+  </body>
+</html>
