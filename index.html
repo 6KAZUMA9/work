@@ -10,14 +10,19 @@
 
   <body>
     <form id="dataForm">
+      <div>
         <label for="direction">Направление:</label>
-        <input type="text" id="direction" name="direction"><br><br>
+        <input type="text" id="direction" name="direction">
+      </div>
         
+      <div>
         <label for="speed">Скорость:</label>
-        <input type="text" id="speed" name="speed"><br><br>
-        <div id="coordinatesOutput">Coordinates: Not set</div>  
+        <input type="text" id="speed" name="speed">
+      </div>
+        
+      <div id="coordinatesOutput">Coordinates: Not set</div>  
 
-        <button type="submit">Отправить</button>
+      <button type="submit">Отправить</button>
     </form>
     <div id="map" style="width: 600px; height: 400px"></div>
   </body>
