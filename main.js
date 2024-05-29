@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
 
         const formData = {
-            field1: document.getElementById('direction').value,
-            field2: document.getElementById('speed').value,
+            direction: document.getElementById('direction').value,
+            speed: document.getElementById('speed').value,
             coordinates: currentCoordinates 
         };
 
